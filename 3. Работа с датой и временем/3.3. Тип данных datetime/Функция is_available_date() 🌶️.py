@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 def date_to_arr(date):
     return set(i for i in range(datetime.strptime(date.split('-')[0], '%d.%m.%Y').toordinal(), datetime.strptime(
         date.split('-')[-1], '%d.%m.%Y').toordinal() + 1))
