@@ -64,3 +64,6 @@ for item in py_data:
 best_pool = max(accept_pools, key=lambda x: (x[0], x[1]))
 print(f'{best_pool[0]}x{best_pool[1]}',
       f'{best_pool[2]}', sep='\n')
+
+
+#test
