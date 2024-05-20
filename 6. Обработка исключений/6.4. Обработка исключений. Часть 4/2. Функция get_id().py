@@ -27,11 +27,3 @@ def get_id(names, name):
     return len(names) + 1
 
 print(get_id(['Timur', 'Anri', 'Dima', 'Arthur'], 'Ruslan1337'))
-
-# names = ['Timur', 'Anri', 'Dima', 'Arthur']
-# name = 'Ruslan1337'
-#
-# try:
-#     print(get_id(names, name))
-# except ValueError as e:
-#     print(e)
